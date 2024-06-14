@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.06.12 a las 11:55:34 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="t4is.uv.mx/inventario">
+    <schemaBindings map="false">
+      <package name="mx.uv.t4is.inventario"/>
+    </schemaBindings>
+    <bindings scd="tns:RecuperarUdiComprasRequest">
+      <class ref="mx.uv.t4is.inventario.RecuperarUdiComprasRequest"/>
+    </bindings>
+    <bindings scd="tns:RecuperarUdiComprasResponse">
+      <class ref="mx.uv.t4is.inventario.RecuperarUdiComprasResponse"/>
+    </bindings>
+    <bindings scd="tns:RecuperarFolioComprasRequest">
+      <class ref="mx.uv.t4is.inventario.RecuperarFolioComprasRequest"/>
+    </bindings>
+    <bindings scd="tns:RecuperarFolioComprasResponse">
+      <class ref="mx.uv.t4is.inventario.RecuperarFolioComprasResponse"/>
+    </bindings>
+    <bindings scd="tns:ConsultarFacturarRequest">
+      <class ref="mx.uv.t4is.inventario.ConsultarFacturarRequest"/>
+    </bindings>
+    <bindings scd="tns:ConsultarFacturarResponse">
+      <class ref="mx.uv.t4is.inventario.ConsultarFacturarResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

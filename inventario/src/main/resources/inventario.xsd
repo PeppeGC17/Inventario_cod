@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="t4is.uv.mx/inventario"
+    xmlns:tns="t4is.uv.mx/inventario" elementFormDefault="qualified">
+
+    <xs:element name="RecuperarUdiComprasRequest">
+    <xs:complexType>
+         <xs:sequence>
+            <xs:element name="UDDI" type="xs:string"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="RecuperarUdiComprasResponse">
+    <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mensajeUdi" type="xs:string"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+    <xs:element name="RecuperarFolioComprasRequest">
+    <xs:complexType>
+         <xs:sequence>
+            <xs:element name="Folio" type="xs:string"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="RecuperarFolioComprasResponse">
+    <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mensajeFolio" type="xs:string"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+    <xs:element name="ConsultarFacturarRequest">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="UDDI" type="xs:string"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="ConsultarFacturarResponse">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="mensaje" type="xs:string"/>
+            <xs:element name="UDDI" type="xs:string"/>
+            <xs:element name="version" type="xs:double"/>
+            <xs:element name="serie" type="xs:double"/>
+            <xs:element name="Tipo_de_comprobante" type="xs:string"/>
+            <xs:element name="Exportacion" type="xs:string"/>
+            <xs:element name="lugarExpedicion" type="xs:string"/>
+            <xs:element name="Certificado" type="xs:string"/>
+            <xs:element name="sello" type="xs:string"/>
+            <xs:element name="RegimenFiscalEmisor" type="xs:string"/>
+            <xs:element name="RfcEmisor" type="xs:string"/>
+            <xs:element name="RegimenFiscalReceptor" type="xs:string"/>
+            <xs:element name="DomicilioFiscalReceptor" type="xs:string"/>
+            <xs:element name="fecha" type="xs:string"/>
+            <xs:element name="precio_unitario" type="xs:double"/>
+            <xs:element name="cantidad" type="xs:double"/>
+            <xs:element name="subtotal" type="xs:double"/>
+            <xs:element name="total" type="xs:double"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="forma_de_pago" type="xs:string"/>
+            <xs:element name="rfc" type="xs:string"/>
+            <xs:element name="descripcion" type="xs:string"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+</xs:schema>
